@@ -20,7 +20,7 @@ The model is based on StackGAN and WGAN, and we made some modifications.
 
 ## References
 
--[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242v2.pdf)
+-[StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242v2.pdf)\n
 
 -[Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 
