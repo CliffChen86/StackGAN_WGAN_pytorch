@@ -16,6 +16,7 @@ Replace StackGAN's loss function with WGAN's loss function.
 ## Model
 
 模型基于StackGAN和WGAN，做了一些修改
+
 The model is based on StackGAN and WGAN, and we made some modifications.
 
 ## References
