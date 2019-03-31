@@ -15,9 +15,17 @@ Replace StackGAN's loss function with WGAN's loss function.
 
 ## Model
 
-模型基于StackGAN和WGAN，做了一些修改
+模型基于StackGAN和WGAN，做了一些修改。以StackGAN为base model，将StackGAN的loss改为Wassertein loss，用来改善收敛速度，使得lossD和lossG表现更好。
 
-The model is based on StackGAN and WGAN, and we made some modifications.
+实验结果证明，修改之后的模型在我们自己的数据集上收敛速度极大提高，并且之前一直降不下去的lossG下降到一个正常值，lossD也稳定在正常值，生成效果相比之前结果得到了提高。
+
+程序运行请参考 https://github.com/hanzhanggit/StackGAN-Pytorch 中的运行方法
+
+The model is based on StackGAN and WGAN, and we made some modifications.We use StackGAN as base model and change StackGAN loss into Wassertein loss to impove the convergence rate of model and make lossG perform better. 
+
+The experimental results show that the convergence speed of the modified model is greatly improved on our own data set, and lossG, which has not been able to fall down before, is reduced to a normal value, lossD is also stable in the normal value. And the generation effect is improved compared with the previous results.
+
+Check on https://github.com/hanzhanggit/StackGAN-Pytorch to run this program.
 
 ## References
 
@@ -25,3 +33,4 @@ The model is based on StackGAN and WGAN, and we made some modifications.
 
 -[Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 
+-[令人拍案叫绝的Wasserstein GAN]https://zhuanlan.zhihu.com/p/25071913
